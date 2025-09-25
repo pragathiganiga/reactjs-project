@@ -1,16 +1,66 @@
-# React + Vite
+# React Dev Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **full-featured React dashboard app** built with **React, Vite, Zustand, Recharts, and React Router**. It includes dark mode, tasks management, real-time charts, and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Responsive layout for **desktop and mobile**  
+- **Dark mode** toggle for the entire app  
+- **Dashboard** with real-time stats and charts  
+- **Tasks page** with CRUD operations (add, delete, toggle complete)  
+- **Profile** and **Settings** pages  
+- **About** page with app information  
+- **Global state management** using **Zustand**  
+- Integration with public APIs for real data  
+- Creative UI with **cards, charts, buttons, and icons**  
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18  
+- Vite  
+- Zustand (state management)  
+- React Router DOM  
+- Recharts (charts)  
+- React Icons  
+- Tailwind CSS (optional, for styling)  
+
+---
+
+## Project Structure
+```
+react-dev-dashboard/
+│── public/
+│ ├── favicon.ico
+│ └── index.html
+│
+│── src/
+│ ├── components/ # Reusable components (Navbar, Card, Button, Chart)
+│ │ ├── Navbar.jsx
+│ │ ├── Card.jsx
+│ │ └── Chart.jsx
+│ │
+│ ├── pages/ # Page components
+│ │ ├── Home.jsx
+│ │ ├── Dashboard.jsx
+│ │ ├── Tasks.jsx
+│ │ ├── Profile.jsx
+│ │ ├── Settings.jsx
+│ │ └── About.jsx
+│ │
+│ ├── store/ # Global Zustand store
+│ │ └── useStore.js
+│ │
+│ ├── styles/ # CSS / Tailwind files
+│ │ └── global.css
+│ │
+│ ├── App.jsx # Main app component
+│ └── main.jsx # Entry point
+│
+├── package.json
+├── README.md
+└── vite.config.js
+```
