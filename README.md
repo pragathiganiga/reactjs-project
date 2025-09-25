@@ -1,29 +1,16 @@
-# React Dev Dashboard
+# React + Vite
 
-A **full-featured React dashboard app** built with **React, Vite, Zustand, Recharts, and React Router**. It includes dark mode, tasks management, real-time charts, and responsive design.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- Responsive layout for **desktop and mobile**  
-- **Dark mode** toggle for the entire app  
-- **Dashboard** with real-time stats and charts  
-- **Tasks page** with CRUD operations (add, delete, toggle complete)  
-- **Profile** and **Settings** pages  
-- **About** page with app information  
-- **Global state management** using **Zustand**  
-- Integration with public APIs for real data  
-- Creative UI with **cards, charts, buttons, and icons**  
+## React Compiler
 
----
+The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Technologies Used
+## Expanding the ESLint configuration
 
-- React 18  
-- Vite  
-- Zustand (state management)  
-- React Router DOM  
-- Recharts (charts)  
-- React Icons  
-- Tailwind CSS (optional, for styling)  
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
