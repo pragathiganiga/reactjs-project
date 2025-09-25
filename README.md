@@ -64,3 +64,12 @@ react-dev-dashboard/
 ├── README.md
 └── vite.config.js
 ```
+
+---
+
+## Installation
+
+1. Clone the repo:
+```bash
+git clone https://github.com/yourusername/react-dev-dashboard.git
+cd react-dev-dashboard
